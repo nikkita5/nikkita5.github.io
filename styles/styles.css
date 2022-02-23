@@ -1,0 +1,84 @@
+body {
+	font-family: Arial, "Times New Roman", sans-serif;;
+	font-size: 12pt;
+	background: url("../images/bg.jpg") #dcd24e;
+	padding: 0;
+	margin: 20px;
+}
+
+#header table {
+	background-color: #00FFFF;
+	border: 4px solid red;
+	width: 100%;
+}
+
+#logo img {
+	width: 200px;
+}
+
+#text-logo {
+	color: #00008B;
+	font-style: italic;
+	font-size: 150%;
+	text-align: center;
+	width: 100%;
+}
+
+#text-logo h1 {
+	margin: 0;
+}
+
+#left {
+	float: left;
+	background-color: #000f;
+}
+
+#left table td {
+	padding: 0;
+}
+
+#left td a {
+	background-color: #7B68EE;
+	color: #fff;
+	display: block;
+	font-weight: bold;
+	padding: 10px 20px;
+	text-decoration: none;
+	margin: 0;
+}
+
+#right {
+	margin: 15px 0 0 250px;
+	background-color: #DEB887;
+}
+
+#right h3 {
+	padding: 20px;
+	text-align: center;
+	font-size: 250%;
+	font-weight: bold;
+	margin: 0;
+}
+
+#right p {
+	padding: 10px 50px;
+	font-size: 150%;
+	font-weight: bold;
+	text-indent: 40px;
+	margin: 0;
+}
+
+#right img {
+	width: 90%;
+}
+
+#content td.active a, #content td a:hover {
+	background-color: #800;
+	color: #3b638f;
+}
+
+.fig {
+	padding: 0;
+	margin: 0;
+	text-align: center;
+}
